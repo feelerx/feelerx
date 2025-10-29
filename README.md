@@ -46,7 +46,7 @@ These contributions strengthened core features related to QIR execution, validat
 
 ### Web Development
 - **[Picture Us](https://picture-us.vercel.app/)** – A social photo-sharing web app built with Django.  
-- **GuesstheImpostor** – A multiplayer FastAPI-based web game (link coming soon).  
+- **[GuesstheImpostor](https://guesstheimpostor.vercel.app/)** – A multiplayer FastAPI-based web game.  
 - **QTask Dist** – A distributed task-execution backend built with FastAPI, Redis, and PostgreSQL (link coming soon).
 
 ### Quantum Computing
