@@ -1,6 +1,6 @@
 # (`feelerx`)
 
-I am a software developer and researcher working at the intersection of **web development**, **quantum computing**, and **systems engineering**.  
+I am a software developer and researcher working at the intersection of **systems engineering**, **quantum software**, and **backend engineering**.  
 I build backend systems, contribute to quantum compiler infrastructure, and develop open-source tools that bridge theory and practice.  
 Visit my portfolio at [paulonoja.vercel.app](https://paulonoja.vercel.app).
 
@@ -11,13 +11,13 @@ Visit my portfolio at [paulonoja.vercel.app](https://paulonoja.vercel.app).
 - **Focus areas:** Quantum software, compiler infrastructure, and distributed system design  
 - **Backend expertise:** Django, FastAPI, PostgreSQL, Redis, Docker  
 - **Quantum stack:** Qiskit, QIR, simulators, and hardware-aware compilation  
-- **Other interests:** Systems programming (C/C++), automatic differentiation, and tooling
+- **Other interests:** Systems programming (C/C++) and tooling
 
 ---
 
 ## Ongoing Research
 
-My research centers on **quantum compilation and distributed quantum task systems**.  
+My research centers on **quantum compilation and distributed systems**.  
 I explore how **Quantum Intermediate Representation (QIR)** can serve as a generalized bridge between quantum programming frameworks and diverse hardware backends.
 
 Key themes include:
@@ -61,10 +61,10 @@ These contributions strengthened core features related to QIR execution, validat
 
 ## Tech Stack
 
-**Languages:** Python, C, C++, JavaScript  
+**Languages:** Python, C, C++, JavaScript, x86 Assembly  
 **Frameworks:** Django, FastAPI, Flask  
 **Databases & Tools:** PostgreSQL, Redis, Docker, Git  
-**Quantum SDKs:** Qiskit, QIR, Cirq  
+**Quantum SDKs:** Qiskit, QIR, Cirq, Cuda-Q  
 **Other:** REST APIs, microservices, distributed systems, simulation tools
 
 ---
