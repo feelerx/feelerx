@@ -4,7 +4,7 @@
       <br>
      <p align="center"><img src="https://readme-typing-svg.herokuapp.com/?ont=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Paul;"/>
     <td>
-      <img alt="gif" src="./assets/images/soloo.gif">
+      <img alt="gif" src="./soloo.gif">
    </td>  
  </tr>  
 </table>
