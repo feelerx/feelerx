@@ -80,7 +80,7 @@ These contributions strengthened core features related to QIR execution, validat
 
 ## Contact
 
-- Portfolio: [paulonoja.vercel.app](https://paulonoja.vercel.app)  
+- Portfolio: [here](https://paulonoja.vercel.app)  
 - GitHub: [github.com/feelerx](https://github.com/feelerx)  
 
 I’m always open to collaborations in quantum software, compiler research, and backend systems.
