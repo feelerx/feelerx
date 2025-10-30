@@ -1,4 +1,13 @@
-# (`feelerx`)
+<table border="0">
+ <tr>
+    <td>
+      <br>
+     <p align="center"><img src="https://readme-typing-svg.herokuapp.com/?ont=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Paul;"/>
+    <td>
+      <img alt="gif" src="./assets/images/soloo.gif">
+   </td>  
+ </tr>  
+</table>
 
 I am a software developer and researcher working at the intersection of **systems engineering**, **quantum software**, and **backend engineering**.  
 I build backend systems, contribute to quantum compiler infrastructure, and develop open-source tools that bridge theory and practice.  
