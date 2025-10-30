@@ -10,8 +10,7 @@
 </table>
 
 I am a software developer and researcher working at the intersection of **systems engineering**, **quantum software**, and **backend engineering**.  
-I build backend systems, contribute to quantum compiler infrastructure, and develop open-source tools that bridge theory and practice.  
-Visit my portfolio [here](https://paulonoja.vercel.app).
+I build backend systems, contribute to quantum compiler infrastructure, and develop open-source tools that bridge theory and practice.
 
 ---
 
@@ -80,8 +79,8 @@ These contributions strengthened core features related to QIR execution, validat
 
 ## Contact
 
-- Portfolio: [here](https://paulonoja.vercel.app)  
-- GitHub: [github.com/feelerx](https://github.com/feelerx)  
+- LinkedIn: [here](https://www.linkedin.com/in/paul-onoja-9035a0220/)  
+- Email: [here](onojaopaul@gmail.com)  
 
 I’m always open to collaborations in quantum software, compiler research, and backend systems.
 
