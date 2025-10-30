@@ -11,7 +11,7 @@
 
 I am a software developer and researcher working at the intersection of **systems engineering**, **quantum software**, and **backend engineering**.  
 I build backend systems, contribute to quantum compiler infrastructure, and develop open-source tools that bridge theory and practice.  
-Visit my portfolio at [paulonoja.vercel.app](https://paulonoja.vercel.app).
+Visit my portfolio [here](https://paulonoja.vercel.app).
 
 ---
 
