@@ -46,13 +46,13 @@ Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR com
 
 ## **Projects**
 
-### **Quantum Computing Research**
+### **Quantum Software **
 
-- **C_qir** — A compiler that converts quantum instructions written in **C to QIR bytecode**.  
+- [**C_qir**](https://github.com/feelerx/C_qir) — A compiler that converts quantum instructions written in **C to QIR bytecode**.  
   The goal is to enable direct quantum programming in C for any QIR-compatible backend.  
   This work led to my invited presentation at **NPI Baja California**.
 
-- **qc_simulator** — Quantum circuit simulator exploring different computational approaches.  
+- [**qc_simulator**](https://github.com/feelerx/qc_simulator) — Quantum circuit simulator exploring different computational approaches.  
   Implemented it in both **C and Python** to compare **performance vs. extensibility trade-offs**.  
   This became the basis for my **Springer paper**.
 
@@ -60,10 +60,10 @@ Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR com
 
 ### **Systems Programming & Optimization**
 
-- **AutoFreer** — Automatic memory management for **C** that's faster than **Boehm GC**.  
+- [**AutoFreer**](https://github.com/feelerx/autofreer) — Automatic memory management for **C**.  
   Built this after reverse-engineering **MSVC's memory allocator** for my undergrad thesis.
 
-- **AutoGrad** — Educational **autodiff library in C** for gradient computation experiments.
+- [**AutoGrad**](https://github.com/feelerx/AutoGrad) — **Autodiff library in C** for gradient computation experiments.
 
 ---
 
@@ -74,7 +74,7 @@ Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR com
 
 ---
 
-## **Research Interests**
+## **Current Interests**
 
 I'm exploring how **Quantum Intermediate Representation (QIR)** can serve as a **universal bridge** between high-level quantum programming frameworks and diverse hardware backends.
 
