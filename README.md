@@ -18,19 +18,6 @@ I **graduated (2023)** and I'm focused on **making quantum computing more practi
 
 ---
 
-## **Open Source Contributions**
-
-Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR compilation workflows**:
-
-- [**#225**](https://github.com/qBraid/qbraid-qir/pull/225) — Built the **Adaptive Execution Profile** system with measurement state tracking and register-based output recording.  
-  This lets different quantum execution models be defined via JSON profiles. *Closed [#199](https://github.com/qBraid/qbraid-qir/issues/199)*
-
-- [**#228**]() — Implemented **QIR Base Profile compliance**, adding measurement state tracking to prevent operations on measured qubits and enforce proper reset requirements. *Closed [#224](https://github.com/qBraid/qbraid-qir/issues/224)*
-
-- [**#248**](https://github.com/qBraid/qbraid-qir/pull/248) — Refactored **Cirq preprocessing** to use `optimize_for_target_gateset`, fixing issues where supported gates were being unnecessarily decomposed. *Closed [#93](https://github.com/qBraid/qbraid-qir/issues/93)*
-
----
-
 ## **Projects**
 
 ### **Quantum Software**
@@ -49,6 +36,20 @@ Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR com
 
 ---
 
+## **Open Source Contributions**
+
+Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR compilation workflows**:
+
+- [**#225**](https://github.com/qBraid/qbraid-qir/pull/225) — Built the **Adaptive Execution Profile** system with measurement state tracking and register-based output recording.  
+  This lets different quantum execution models be defined via JSON profiles. *Closed [#199](https://github.com/qBraid/qbraid-qir/issues/199)*
+
+- [**#228**]() — Implemented **QIR Base Profile compliance**, adding measurement state tracking to prevent operations on measured qubits and enforce proper reset requirements. *Closed [#224](https://github.com/qBraid/qbraid-qir/issues/224)*
+
+- [**#248**](https://github.com/qBraid/qbraid-qir/pull/248) — Refactored **Cirq preprocessing** to use `optimize_for_target_gateset`, fixing issues where supported gates were being unnecessarily decomposed. *Closed [#93](https://github.com/qBraid/qbraid-qir/issues/93)*
+
+
+---
+
 ## **Current Interests**
 
 I'm exploring how Quantum Intermediate Representation (QIR) can serve as a universal bridge between high-level quantum programming frameworks and diverse hardware backends, alongside deepening my understanding of distributed systems (both classical and quantum).
@@ -57,25 +58,6 @@ I'm exploring how Quantum Intermediate Representation (QIR) can serve as a unive
 - Hardware-aware circuit partitioning in distributed quantum networks  
 - Practical quantum compilation tooling and Quantum-classical interface optimization
 - Classical distributed systems: consensus protocols, fault tolerance, and scalability patterns
-
----
-
-## **Tech Stack**
-
-**Languages:** Python, C, C++, JavaScript  
-**Frameworks:** Django, FastAPI  
-**Databases & Tools:** PostgreSQL, Redis, Docker, Git  
-**Quantum SDKs:** Qiskit, QIR, CUDA-Quantum, Cirq, qasm 
-**Research Tools:** Reverse engineering (Ghidra, x64dbg), profiling, performance optimization  
-
----
-
-## **Achievements**
-
-- **IBM Qiskit Developer Advocate (Sept 2025 - Present)**  
-- **Qiskit Global Summer School Badge of Quantum Excellence (2023)** — 100% lab completion  
-- **IBM Quantum Challenge Participant** (Spring 2023, 2024)  
-- **Unitary Hackathon Bounty Winner (2024)**  
 
 ---
 
@@ -91,6 +73,13 @@ I'm exploring how Quantum Intermediate Representation (QIR) can serve as a unive
 **Full CV & Publications:** [here]()
 
 ---
+## **Achievements**
+
+- **IBM Qiskit Developer Advocate (Sept 2025 - Present)**  
+- **Qiskit Global Summer School Badge of Quantum Excellence (2023)** — 100% lab completion  
+- **IBM Quantum Challenge Participant** (Spring 2023, 2024)  
+- **Unitary Hackathon Bounty Winner (2024)**  
+---
 
 ### **Other Projects**
 
@@ -99,11 +88,21 @@ I'm exploring how Quantum Intermediate Representation (QIR) can serve as a unive
 
 ---
 
+## **Tech Stack**
+
+**Languages:** Python, C, C++, JavaScript  
+**Frameworks:** Django, FastAPI  
+**Databases & Tools:** PostgreSQL, Redis, Docker, Git  
+**Quantum SDKs:** Qiskit, QIR, CUDA-Quantum, Cirq, qasm 
+**Research Tools:** Reverse engineering (Ghidra, x64dbg), profiling, performance optimization  
+
+---
+
 ## **Contact**
 
 - **LinkedIn:** [here](https://www.linkedin.com/in/paul-onoja-9035a0220/)  
 - **Email:** [here](mailto:onojaopaul@gmail.com)  
 
-I’m always open to collaborations in **quantum software**, **compiler research**, and **backend systems**.
+I’m always open to collaborations in **quantum software**, **compiler research**, and **distributed backend systems**.
 
 
