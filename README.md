@@ -9,23 +9,39 @@
  </tr>  
 </table>
 
-I am a software developer and researcher working at the intersection of **systems engineering**, **quantum software**, and **backend engineering**.  
-I build backend systems, contribute to quantum compiler infrastructure, and develop open-source tools that bridge theory and practice.
+I am a quantum computing researcher and software developer working at the intersection of **quantum compilation**, **systems engineering**, and **backend development**.  
+I publish research on quantum-classical software stacks, contribute to quantum compiler infrastructure, and build tools that bridge theory and practice.
+
+**Graduated (2023)** with published work in Springer and invited presentations at international quantum computing seminars.
 
 ---
 
 ## About Me
 
-- **Focus areas:** Quantum software, compiler infrastructure, and distributed system design  
+- **Research focus:** Quantum compilation, QIR-based compilation workflows, distributed quantum systems  
+- **Quantum stack:** Qiskit, QIR, CUDA-Quantum, simulators, and hardware-aware compilation  
 - **Backend expertise:** Django, FastAPI, PostgreSQL, Redis, Docker  
-- **Quantum stack:** Qiskit, QIR, simulators, and hardware-aware compilation  
-- **Other interests:** Systems programming (C/C++) and tooling
+- **Systems-level work:** Memory management, performance optimization, reverse engineering (C/C++, x86 assembly)
+
+**IBM Qiskit Developer Advocate** (Sept 2025 - Present)
+
+---
+
+## Publications & Presentations
+
+**Peer-Reviewed Publication**
+- Onoja, P.O. et al. (2025). "Cross-Platform Analysis of Quantum Circuit Simulators with State Collapse Mechanisms and Back-Action Tracking in C and Python." *Artificial Intelligence and Quantum Computing: Early Innovations, Volume 1.* Studies in Computational Intelligence, vol 1200. Springer, Cham.  
+  [https://doi.org/10.1007/978-3-031-85614-3_16](https://doi.org/10.1007/978-3-031-85614-3_16)
+
+**Invited Talks**
+- "Integrating Quantum Intermediate Representation (QIR) into a C-Based Quantum-Classical Framework for Efficient Quantum Computing" — Seminar on AI and Quantum Computing, National Polytechnic Institute Baja California (October 2025)
+- "Quantum Compilation: Optimizing Quantum Circuits for Hardware Efficiency" — Qiskit Fall Fest, University of Ibadan, Nigeria (2024)
 
 ---
 
 ## Ongoing Research
 
-My research centers on **quantum compilation and distributed systems**.  
+My research centers on **quantum compilation and distributed quantum systems**.  
 I explore how **Quantum Intermediate Representation (QIR)** can serve as a generalized bridge between quantum programming frameworks and diverse hardware backends.
 
 Key themes include:
@@ -36,34 +52,43 @@ Key themes include:
 
 This ongoing work builds on ideas from my experimental projects such as `C_qir`, `qc_simulator`, and the distributed FastAPI-based **QTask** system.
 
+**Current research position:** Quantum Software Research Intern at QWorld (July 2025 - Present), working on optimal task-to-QPU mapping algorithms for distributed quantum systems. Manuscript in preparation for QCAMP.
+
 ---
 
 ## Open Source Contributions
 
-I actively contribute to [qBraid/qbraid-qir](https://github.com/qBraid/qbraid-qir), focusing on QIR-based compilation workflows and adaptive quantum profiles.
+I actively contribute to [qBraid/qbraid-qir](https://github.com/qBraid/qbraid-qir), focusing on QIR profile compliance and quantum circuit preprocessing.
 
-- [#225](https://github.com/qBraid/qbraid-qir/pull/225) — Closed [#199](https://github.com/qBraid/qbraid-qir/issues/199)  
-- [#228](https://github.com/qBraid/qbraid-qir/pull/228) — Closed [#224](https://github.com/qBraid/qbraid-qir/issues/224)  
-- [#248](https://github.com/qBraid/qbraid-qir/pull/248) — Closed [#93](https://github.com/qBraid/qbraid-qir/issues/93)  
+- [#225](https://github.com/qBraid/qbraid-qir/pull/225) — Implemented Adaptive Execution Profile support with measurement state tracking, register-based output recording, and validation of post-measurement qubit operations. Added profile-based architecture enabling JSON-defined QIR profiles for different quantum execution models (Closed [#199](https://github.com/qBraid/qbraid-qir/issues/199))
 
-These contributions strengthened core features related to QIR execution, validation, and interoperability with quantum frameworks.
+- [#228](https://github.com/qBraid/qbraid-qir/pull/228) — Implemented QIR Base Profile compliance by adding measurement state tracking to prevent quantum operations on measured qubits, enforcing qubit reset requirements, and ensuring proper function usage per Base Profile specification (Closed [#224](https://github.com/qBraid/qbraid-qir/issues/224))
+
+- [#248](https://github.com/qBraid/qbraid-qir/pull/248) — Refactored Cirq circuit preprocessing to use `optimize_for_target_gateset` with custom `QirTargetGateSet` class, fixing unnecessary gate decomposition and preserving supported gates (H, CNOT, TOFFOLI) while properly handling classically-controlled operations (Closed [#93](https://github.com/qBraid/qbraid-qir/issues/93))
+
+**Unitary Hackathon Bounty Winner** (2024) for QIR Base & Adaptive Profile compliant QASM conversions
 
 ---
 
 ## Projects
 
-### Web Development
-- **[Picture Us](https://picture-us.vercel.app/)** – A social photo-sharing web app built with Django.  
-- **[GuesstheImpostor](https://guesstheimpostor.vercel.app/)** – A multiplayer FastAPI-based web game.  
-- **QTask Dist** – A distributed task-execution backend built with FastAPI, Redis, and PostgreSQL (link coming soon).
+### Quantum Computing Research
 
-### Quantum Computing
-- **[C_qir](https://github.com/feelerx/C_qir)** – A C-based implementation and experimentation ground for Quantum Intermediate Representation.  
-- **[qc_simulator](https://github.com/feelerx/qc_simulator)** – A quantum circuit simulator exploring gate compilation and hardware abstraction.
+- **[C_qir](https://github.com/feelerx/C_qir)** – A compiler pipeline converting universal quantum instructions written in C to Quantum Intermediate Representation (QIR), enabling C code execution on any QIR-compatible quantum backend. This work directly led to an invited presentation at the National Polytechnic Institute Baja California (October 2025).
 
-### Libraries and Tooling
-- **[AutoFreer](https://github.com/feelerx/autofreer)** – A lightweight C/C++ utility for automated memory cleanup and resource handling.  
-- **[AutoGrad](https://github.com/feelerx/AutoGrad)** – An educational auto-differentiation library for gradient-based computation experiments.
+- **[qc_simulator](https://github.com/feelerx/qc_simulator)** – A quantum circuit simulator implementing three distinct computational approaches (matrix multiplication, tensor product, direct qubit manipulation) in both C and Python. Comparative performance analysis published in *Artificial Intelligence and Quantum Computing: Early Innovations* (Springer, 2025).
+
+### Systems Programming & Optimization
+
+- **[AutoFreer](https://github.com/feelerx/autofreer)** – An automatic memory management system implemented as a lightweight DLL for C, achieving 10-20% faster execution and lower memory overhead compared to the Boehm-Demers-Weiser library. Built on insights from reverse-engineering MSVC's malloc/calloc/realloc/free implementations (undergraduate thesis work).
+
+- **[AutoGrad](https://github.com/feelerx/AutoGrad)** – A lightweight automatic differentiation system for mathematical expressions in C, enabling gradient tracking and manipulation for machine learning workflows.
+
+### Full-Stack Development
+
+- **[Picture Us](https://picture-us.vercel.app/)** – A social photo-sharing web app built with Django and PostgreSQL, featuring WebSocket-based real-time updates and permission management.
+
+- **[GuesstheImpostor](https://guesstheimpostor.vercel.app/)** – A multiplayer FastAPI-based web game.
 
 ---
 
@@ -72,10 +97,21 @@ These contributions strengthened core features related to QIR execution, validat
 **Languages:** Python, C, C++, JavaScript, x86 Assembly  
 **Frameworks:** Django, FastAPI, Flask  
 **Databases & Tools:** PostgreSQL, Redis, Docker, Git  
-**Quantum SDKs:** Qiskit, QIR, Cirq, Cuda-Q  
-**Other:** REST APIs, microservices, distributed systems, simulation tools
+**Quantum SDKs:** Qiskit, QIR, CUDA-Quantum, Cirq  
+**Research Tools:** Reverse engineering (Ghidra, x64dbg), profiling, performance optimization
 
 ---
+
+## Achievements
+
+- IBM Qiskit Developer Advocate (Sept 2025 - Present)
+- Qiskit Global Summer School Badge of Quantum Excellence (2023, 100% lab completion)
+- IBM Quantum Challenge Participant (Spring 2023, 2024)
+- Unitary Hackathon Bounty Winner (2024)
+
+---
+
+**Full CV & Publications:** [here]()
 
 ## Contact
 
