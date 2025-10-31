@@ -20,9 +20,7 @@ I **graduated (2023)** and I'm focused on **making quantum computing more practi
 
 ## **Recent Work I'm Proud Of**
 
-- **Published paper in Springer (2025)** comparing quantum circuit simulation approaches in **C and Python**.  
-  We analyzed the trade-offs between **performance** and **extensibility** across different implementation strategies.  
-  [https://doi.org/10.1007/978-3-031-85614-3_16](https://doi.org/10.1007/978-3-031-85614-3_16)
+- **Published paper in Springer (2025)** comparing quantum circuit simulation approaches in **C and Python**. We analyzed the trade-offs between **performance** and **extensibility** across different implementation strategies.[https://doi.org/10.1007/978-3-031-85614-3_16](https://doi.org/10.1007/978-3-031-85614-3_16)
 
 - **Invited speaker** at the **National Polytechnic Institute Baja California (Oct 2025)** — presented on integrating **QIR** into **C-based quantum-classical frameworks**.  
   Also spoke at **Qiskit Fall Fest Nigeria** about quantum compilation.
@@ -48,20 +46,15 @@ Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR com
 
 ### **Quantum Software **
 
-- [**C_qir**](https://github.com/feelerx/C_qir) — A compiler that converts quantum instructions written in **C to QIR bytecode**.  
-  The goal is to enable direct quantum programming in C for any QIR-compatible backend.  
-  This work led to my invited presentation at **NPI Baja California**.
+- [**C_qir**](https://github.com/feelerx/C_qir) — A compiler that converts quantum instructions written in **C to QIR bytecode**. The goal is to enable direct quantum programming in C for any QIR-compatible backend. This work led to my invited presentation at **NPI Baja California**.
 
-- [**qc_simulator**](https://github.com/feelerx/qc_simulator) — Quantum circuit simulator exploring different computational approaches.  
-  Implemented it in both **C and Python** to compare **performance vs. extensibility trade-offs**.  
-  This became the basis for my **Springer paper**.
+- [**qc_simulator**](https://github.com/feelerx/qc_simulator) — Quantum circuit simulator exploring different computational approaches. Implemented it in both **C and Python** to compare **performance vs. extensibility trade-offs**. This became the basis for my **Springer paper**.
 
 ---
 
 ### **Systems Programming & Optimization**
 
-- [**AutoFreer**](https://github.com/feelerx/autofreer) — Automatic memory management for **C**.  
-  Built this after reverse-engineering **MSVC's memory allocator** for my undergrad thesis.
+- [**AutoFreer**](https://github.com/feelerx/autofreer) — Automatic memory management for **C**. Built this after reverse-engineering **MSVC's memory allocator** for my undergrad thesis.
 
 - [**AutoGrad**](https://github.com/feelerx/AutoGrad) — **Autodiff library in C** for gradient computation experiments.
 
@@ -69,8 +62,8 @@ Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR com
 
 ### **Full-Stack Development**
 
-- **Picture Us** — **Django-based photo sharing app** with real-time updates.  
-- **GuesstheImpostor** — **Multiplayer web game** built with **FastAPI**.
+- [**Picture Us**](https://picture-us.vercel.app) — **Django-based photo sharing app** with real-time updates.  
+- [**GuesstheImpostor**](https://guesstheimpostor.vercel.app) — **Multiplayer web game** built with **FastAPI**.
 
 ---
 
@@ -89,9 +82,9 @@ I'm exploring how **Quantum Intermediate Representation (QIR)** can serve as a *
 ## **Tech Stack**
 
 **Languages:** Python, C, C++, JavaScript, x86 Assembly  
-**Frameworks:** Django, FastAPI, Flask  
+**Frameworks:** Django, FastAPI  
 **Databases & Tools:** PostgreSQL, Redis, Docker, Git  
-**Quantum SDKs:** Qiskit, QIR, CUDA-Quantum, Cirq  
+**Quantum SDKs:** Qiskit, QIR, CUDA-Quantum, Cirq, qasm 
 **Research Tools:** Reverse engineering (Ghidra, x64dbg), profiling, performance optimization  
 
 ---
