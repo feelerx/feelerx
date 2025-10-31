@@ -27,7 +27,7 @@ I **graduated (2023)** and I'm focused on **making quantum computing more practi
 - **Invited speaker** at the **National Polytechnic Institute Baja California (Oct 2025)** — presented on integrating **QIR** into **C-based quantum-classical frameworks**.  
   Also spoke at **Qiskit Fall Fest Nigeria** about quantum compilation.
 
-- **Won the Unitary Hackathon bounty (2024)** for implementing **QIR Base and Adaptive Profile compliant QASM conversions** in **qBraid-qir**.
+- **Won Unitary Hackathon bounty (2024)** for implementing **QIR Base and Adaptive Profile compliant QASM conversions** in **qBraid-qir**.
 
 ---
 
