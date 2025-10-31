@@ -44,7 +44,7 @@ Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR com
 
 ## **Projects**
 
-### **Quantum Software **
+### **Quantum Software**
 
 - [**C_qir**](https://github.com/feelerx/C_qir) — A compiler that converts quantum instructions written in **C to QIR bytecode**. The goal is to enable direct quantum programming in C for any QIR-compatible backend. This work led to my invited presentation at **NPI Baja California**.
 
