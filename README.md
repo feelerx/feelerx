@@ -18,17 +18,6 @@ I **graduated (2023)** and I'm focused on **making quantum computing more practi
 
 ---
 
-## **Recent Work I'm Proud Of**
-
-- **Published paper in Springer (2025)** comparing quantum circuit simulation approaches in **C and Python**. We analyzed the trade-offs between **performance** and **extensibility** across different implementation strategies.[https://doi.org/10.1007/978-3-031-85614-3_16](https://doi.org/10.1007/978-3-031-85614-3_16)
-
-- **Invited speaker** at the **National Polytechnic Institute Baja California (Oct 2025)** — presented on integrating **QIR** into **C-based quantum-classical frameworks**.  
-  Also spoke at **Qiskit Fall Fest Nigeria** about quantum compilation.
-
-- **Won Unitary Hackathon bounty (2024)** for implementing **QIR Base and Adaptive Profile compliant QASM conversions** in **qBraid-qir**.
-
----
-
 ## **Open Source Contributions**
 
 Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR compilation workflows**:
@@ -60,28 +49,20 @@ Most of my contributions are to **qBraid/qbraid-qir**, where I work on **QIR com
 
 ---
 
-### **Full-Stack Development**
-
-- [**Picture Us**](https://picture-us.vercel.app) — **Django-based photo sharing app** with real-time updates.  
-- [**GuesstheImpostor**](https://guesstheimpostor.vercel.app) — **Multiplayer web game** built with **FastAPI**.
-
----
-
 ## **Current Interests**
 
-I'm exploring how **Quantum Intermediate Representation (QIR)** can serve as a **universal bridge** between high-level quantum programming frameworks and diverse hardware backends.
+I'm exploring how Quantum Intermediate Representation (QIR) can serve as a universal bridge between high-level quantum programming frameworks and diverse hardware backends, alongside deepening my understanding of distributed systems (both classical and quantum).
 
 **Current focus areas:**
-- Adaptive quantum compilation using device-specific profiles  
 - Hardware-aware circuit partitioning in distributed quantum networks  
-- Systems-level optimization of quantum-classical interfaces  
-- Making quantum compilation tooling more practical and accessible  
+- Practical quantum compilation tooling and Quantum-classical interface optimization
+- Classical distributed systems: consensus protocols, fault tolerance, and scalability patterns
 
 ---
 
 ## **Tech Stack**
 
-**Languages:** Python, C, C++, JavaScript, x86 Assembly  
+**Languages:** Python, C, C++, JavaScript  
 **Frameworks:** Django, FastAPI  
 **Databases & Tools:** PostgreSQL, Redis, Docker, Git  
 **Quantum SDKs:** Qiskit, QIR, CUDA-Quantum, Cirq, qasm 
@@ -98,7 +79,23 @@ I'm exploring how **Quantum Intermediate Representation (QIR)** can serve as a *
 
 ---
 
+## **Recent Work I'm Proud Of**
+
+- **Published paper in Springer (2025)** comparing quantum circuit simulation approaches in **C and Python**. We analyzed the trade-offs between **performance** and **extensibility** across different implementation strategies.[https://doi.org/10.1007/978-3-031-85614-3_16](https://doi.org/10.1007/978-3-031-85614-3_16)
+
+- **Invited speaker** at the **National Polytechnic Institute Baja California (Oct 2025)** — presented on integrating **QIR** into **C-based quantum-classical frameworks**.  
+  Also spoke at **Qiskit Fall Fest Nigeria** about quantum compilation.
+
+- **Won Unitary Hackathon bounty (2024)** for implementing **QIR Base and Adaptive Profile compliant QASM conversions** in **qBraid-qir**.
+
 **Full CV & Publications:** [here]()
+
+---
+
+### **Other Projects**
+
+- [**Picture Us**](https://picture-us.vercel.app) — **Django-based photo sharing app** with real-time updates.  
+- [**GuesstheImpostor**](https://guesstheimpostor.vercel.app) — **Multiplayer web game** built with **FastAPI**.
 
 ---
 
