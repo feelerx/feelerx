@@ -70,7 +70,7 @@ I'm exploring how Quantum Intermediate Representation (QIR) can serve as a unive
 
 - **Won Unitary Hackathon bounty (2024)** for implementing **QIR Base and Adaptive Profile compliant QASM conversions** in **qBraid-qir**.
 
-**Full CV & Publications:** [here]()
+**Full CV & Publications:** [here](https://docs.google.com/document/d/1_EUVkdtyLgN1yrfGwTgJq1dJ9SqvSstLvqJtHAiApc0/edit?usp=sharing)
 
 ---
 ## **Achievements**
