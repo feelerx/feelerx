@@ -26,7 +26,7 @@ I **graduated (2023)** and I'm focused on **making quantum computing more practi
 
 - [**qc_simulator**](https://github.com/feelerx/qc_simulator) — Quantum circuit simulator exploring different computational approaches. Implemented it in both **C and Python** to compare **performance vs. extensibility trade-offs**. This became the basis for my **Springer paper**.
 
-- [qtaskdist] (https://qtaskdist.vercel.app) - A distributed task framework focused on running quantum-related jobs. Run quantum circuits on simulators, real hardware and convert to QIR. Built on qbraid SDK
+- [**qtaskdist**] (https://qtaskdist.vercel.app) - A distributed task framework focused on running quantum-related jobs. Run quantum circuits on simulators, real hardware and convert to QIR. Built on qbraid SDK
 
 ---
 
